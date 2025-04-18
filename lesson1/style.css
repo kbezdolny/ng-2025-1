@@ -1,0 +1,34 @@
+table, th, td {
+    border-collapse: collapse;
+    border: 1px solid;
+}
+
+th, td {
+    padding: 5px 10px;
+}
+
+#my-form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    row-gap: 6px;
+}
+
+input {
+    border: 2px solid black;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+#my-form input:invalid {
+    border-color: red;
+}
+
+.my-form_input[type="submit"] {
+    background-color: #ebebeb;
+}
+
+.my-form_input[type="submit"]:hover {
+    background-color: #9b9b9b;
+    cursor: pointer;
+}
