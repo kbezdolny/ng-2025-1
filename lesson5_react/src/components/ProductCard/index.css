@@ -1,0 +1,28 @@
+.product-card {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    row-gap: 2px;
+    font-family: "Arial", sans-serif;
+    border-radius: 10px;
+    border: 2px solid #4c4c4c;
+    padding: 10px;
+}
+
+.product-card > img {
+    object-fit: cover;
+    width: 100%;
+    height: 160px;
+}
+
+.product-card__title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+}
+
+.product-card__info {
+    display: flex;
+    justify-content: space-between;
+}
